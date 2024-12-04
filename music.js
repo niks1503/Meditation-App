@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       src2: "Music/piano-music-267041.mp3",
     },
     "guitar music": {
-      src1: "images/inspirational-cinema.jpg",
+      src1: "images/inpirational-cinema.jpg",
       src2: "Music/inspirational-cinematic-calm-piano-254541.mp3",
     },
     "forest music": {
