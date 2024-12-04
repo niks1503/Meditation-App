@@ -1,6 +1,8 @@
-# U M🧘🏼TTER | MUSIC
+# U M🧘🏼TTER | Meditation-App
 
 **U M🧘🏼TTER | MUSIC** is a relaxing web app designed to provide users with various options for relaxation, breathing exercises, music, and more. The app features interactive pages such as **Relax & Breathe**, **Scene** with calming GIFs, and **Talk to Hope** for positive affirmations and entertainment.
+
+[Live Demo](https://niks1503.github.io/Meditation-App/index.html)
 
 ## Features
 
@@ -62,12 +64,6 @@
 - **Scene**: Clicking any of the GIF thumbnails will display the GIF in fullscreen mode with an overlay background. A close button (`X`) allows users to exit the fullscreen view.
 
 - **Talk to Hope**: The page includes a list of possible greetings, commands, and questions. Users can interact by clicking on these, and the app responds with positive quotes or simple answers. Additionally, it offers a “mic” button to speak out loud and listen to positive quotes.
-
----
-
-## Screenshot
-
-Include a screenshot or demo of the project here.
 
 ---
 
