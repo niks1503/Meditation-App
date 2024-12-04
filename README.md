@@ -1,4 +1,4 @@
-# U M🧘🏼TTER | MUSIC
+# U M🧘🏼TTER | Meditation-App
 
 **U M🧘🏼TTER | MUSIC** is a relaxing web app designed to provide users with various options for relaxation, breathing exercises, music, and more. The app features interactive pages such as **Relax & Breathe**, **Scene** with calming GIFs, and **Talk to Hope** for positive affirmations and entertainment.
 
