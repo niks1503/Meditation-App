@@ -67,6 +67,8 @@
 
 ## Screenshot
 
+Include a screenshot or demo of the project here.
+
 ---
 
 ## Contributing
