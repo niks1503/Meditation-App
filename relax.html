@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>U M🧘🏼‍♀️TTER|MUSIC</title>
+    <script
+      src="https://kit.fontawesome.com/68df72b97a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="flex flex-row m-auto">
+      <div
+        class="flex flex-col w-1/4 h-screen bg-gradient-to-r from-sky-500 to-indigo-500 p-10 gap-7 text-white sticky top-0"
+      >
+        <div>
+          <h1 class="font-bold text-3xl">U M🧘🏼TTER</h1>
+        </div>
+        <div class="leading-10 font-semibold text-lg flex flex-col gap-8">
+          <a href="index.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-house-chimney"></i> HOME
+            </div> </a
+          ><a href="music.html"
+            ><div class="left-menu-icons">
+              <i class="fa-solid fa-music"></i> MUSIC
+            </div></a
+          ><a href="scene.html"
+            ><div class="left-menu-icons">
+              <i class="fa-regular fa-image"></i> SCENE
+            </div></a
+          ><a href="relax.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-heart-pulse"></i> RELAX & BREATHE
+            </div></a
+          ><a href="talk.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-comments"></i> TALK TO HOPE
+            </div></a
+          >
+        </div>
+      </div>
+
+      <div
+        id="relax-right-main-container flex flex-col items-center"
+        class="w-3/4 bg-gradient-to-r from-purple-500 via-purple-500 to-gray-500"
+      >
+        <div class="flex flex-row items-center gap-10 p-8 sticky top-0 z-10">
+          <div class="m-auto">
+            <p class="text-5xl text-brown-900 font-medium text-white">
+              Relax & Breathe
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-10 p-8">
+          <div class="h-60 w-4/5 m-auto relative">
+            <div class="h-full">
+              <img
+                src="images/deep-breathing-1.jpg"
+                alt=""
+                class="m-auto h-full w-full rounded-md"
+              />
+            </div>
+            <div class="absolute bottom-1 left-2 flex w-11/12 justify-between">
+              <div>
+                <div>
+                  <p class="text-2xl text-white font-bold">Deep Breathing</p>
+                </div>
+                <div>
+                  <p>
+                    Deep breathing is one of the best way to relax and let your
+                    worries go.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://www.healthline.com/health/diaphragmatic-breathing#"
+                    ><u>Read More</u></a
+                  >
+                </div>
+              </div>
+              <div>
+                <button class="px-2 py-1 rounded-md bg-pink-300 font-medium">
+                  Begin
+                </button>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div class="h-60 w-4/5 m-auto relative">
+            <div class="h-full">
+              <img
+                src="images/deep-breathing-2.jpg"
+                alt=""
+                class="m-auto h-full w-full rounded-md"
+              />
+            </div>
+            <div class="absolute bottom-1 left-2 flex w-11/12 justify-between">
+              <div>
+                <div>
+                  <p class="text-2xl text-white font-bold">4-7-8 Technique</p>
+                </div>
+                <div>
+                  <p>
+                    The 4-7-8 technique forces the mind and body to focus on
+                    regulating the breath.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://www.healthline.com/health/diaphragmatic-breathing#"
+                    ><u>Read More</u></a
+                  >
+                </div>
+              </div>
+              <div>
+                <button class="bg-pink-300 px-2 py-1 rounded-md font-medium">
+                  Begin
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      id="timer-modal"
+      class="hidden fixed inset-0 flex items-center justify-center bg-gradient-to-r from-purple-700 via-indigo-800 to-blue-700 z-50"
+    >
+      <div
+        class="relative w-full h-full flex flex-col items-center justify-center text-white"
+      >
+        <!-- Glowing Timer -->
+        <div
+          id="timer-circle"
+          class="relative w-56 h-56 border-8 border-white rounded-full flex items-center justify-center overflow-hidden shadow-2xl bg-gradient-to-b from-blue-500 to-transparent animate-pulse"
+        >
+          <!-- Rotating Glow -->
+          <div
+            class="absolute w-full h-full rounded-full bg-gradient-to-r from-purple-400 via-blue-500 to-indigo-600 animate-spin-slow opacity-40"
+          ></div>
+
+          <!-- Timer Count -->
+          <span
+            id="timer-count"
+            class="text-6xl font-extrabold z-10 drop-shadow-lg"
+            >10</span
+          >
+        </div>
+
+        <!-- Title and Subtitle -->
+        <p class="text-4xl font-bold mt-10 animate-pulse">Relax & Breathe</p>
+        <p class="text-lg mt-2 font-medium opacity-90">
+          Let go of your worries. Take a deep breath.
+        </p>
+
+        <!-- Close Button -->
+        <button
+          id="close-timer"
+          class="absolute top-5 right-5 text-white hover:text-red-500 transition-all"
+        >
+          <i class="fa-solid fa-xmark text-4xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="relax.js"></script>
+  </body>
+</html>

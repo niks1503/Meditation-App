@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>U M🧘🏼‍♀️TTER</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/68df72b97a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="flex flex-row m-auto">
+      <div
+        class="flex flex-col w-1/4 h-screen bg-gradient-to-r from-sky-500 to-indigo-500 p-10 gap-7 text-white overflow-y-hidden"
+      >
+        <div>
+          <h1 class="font-bold text-3xl">U M🧘🏼TTER</h1>
+        </div>
+        <div class="leading-10 font-semibold text-lg flex flex-col gap-8">
+          <a href="index.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-house-chimney"></i> HOME
+            </div> </a
+          ><a href="music.html" target="_parent"
+            ><div class="left-menu-icons">
+              <i class="fa-solid fa-music"></i> MUSIC
+            </div></a
+          ><a href="scene.html"
+            ><div class="left-menu-icons">
+              <i class="fa-regular fa-image"></i> SCENE
+            </div></a
+          ><a href="relax.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-heart-pulse"></i> RELAX & BREATHE
+            </div></a
+          ><a href="talk.html">
+            <div class="left-menu-icons">
+              <i class="fa-solid fa-comments"></i> TALK TO HOPE
+            </div></a
+          >
+        </div>
+      </div>
+      <div
+        id="right-main-container"
+        class="w-3/4 h-screen p-8 flex flex-col bg-amber-300 overflow-auto"
+      >
+        <div
+          class="flex flex-row justify-center items-center gap-10 text-5xl bg-sky-800 p-5 rounded-lg"
+        >
+          <div>
+            <div>
+              <p class="text-white" id="greeting_title">
+                Good Afternoon,
+                <input
+                  type="text"
+                  id="your_name"
+                  placeholder="Your Name"
+                  class="outline-0 m-1 max-w-60 bg-orange-500 text-white"
+                />
+              </p>
+            </div>
+            <div class="quote">
+              <!-- Quote will be dynamically displayed here! -->
+            </div>
+          </div>
+          <div class="home-img">
+            <img
+              src="gifs/hello.gif"
+              alt=""
+              height="300px"
+              width="200px"
+              class="rounded-md"
+            />
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="flex flex-col w-full bg-slate-900 text-left my-4 rounded-md p-3 font-medium"
+          >
+            <button id="button1" class="text-teal-300">
+              What is U M🧘🏼‍♀️TTER?
+            </button>
+
+            <div
+              class="hidden bg-gray-400 w-full p-3 rounded-md"
+              id="div_below1"
+            >
+              <p>
+                U matter is a meditation and relaxation app that designed to
+                take you some moment to relax and breathe. U Matter mission is
+                to help you find your inner peace and improve your mental
+                health.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col w-full bg-slate-900 text-left my-4 rounded-md p-3 font-medium"
+          >
+            <button id="button2" class="text-teal-300">
+              How can we help you?
+            </button>
+
+            <div
+              class="hidden bg-gray-400 w-full p-3 rounded-md"
+              id="div_below2"
+            >
+              <p>
+                U Matter helps you to relax your body and mind with meditation
+                music, nature scenery with sounds, an AI voice asistant to talk
+                to and breathing exercises to help you cope with your stress and
+                anxiety. U Matter can help you to let go of the busy mind, and
+                relax your body.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
