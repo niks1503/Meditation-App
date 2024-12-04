@@ -65,13 +65,6 @@
 
 ---
 
-## Screenshot
-
-[App Screenshot](images/Screenshot(467).png)
-
-
----
-
 ## Contributing
 
 1. Fork the repository.
